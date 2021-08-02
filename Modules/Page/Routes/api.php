@@ -1,0 +1,1 @@
+Route::get('app', 'HomeController@app_signin');

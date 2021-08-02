@@ -1,0 +1,692 @@
+[09-Oct-2019 10:06:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\Foundation\Applicat in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[10-Oct-2019 10:06:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Admin/Sidebar/AdminSidebar.php on line 27
+[16-Oct-2019 10:40:50 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Request as Request because the name is already in use in /home/bustosme/public_html/projects/boletazo/Modules/Account/Http/Controllers/AccountProfileController.php on line 8
+[16-Oct-2019 12:05:56 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/HomeController.php on line 25
+[17-Oct-2019 06:17:27 UTC] PHP Fatal error:  Class 'Controller' not found in /home/bustosme/public_html/projects/boletazo/public/loggg.php on line 3
+[17-Oct-2019 06:18:44 UTC] PHP Fatal error:  Class 'Controller' not found in /home/bustosme/public_html/projects/boletazo/public/loggg.php on line 3
+[17-Oct-2019 08:13:43 UTC] PHP Fatal error:  Class 'Controller' not found in /home/bustosme/public_html/projects/boletazo/public/loggg.php on line 3
+[17-Oct-2019 08:13:52 UTC] PHP Fatal error:  Class 'Controller' not found in /home/bustosme/public_html/projects/boletazo/public/loggg.php on line 3
+[17-Oct-2019 15:45:34 UTC] PHP Fatal error:  Class 'Controller' not found in /home/bustosme/public_html/projects/boletazo/public/loggg.php on line 3
+[17-Oct-2019 15:45:44 UTC] PHP Fatal error:  Class 'Controller' not found in /home/bustosme/public_html/projects/boletazo/public/loggg.php on line 3
+[01-Nov-2019 15:05:57 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[01-Nov-2019 15:05:59 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[01-Nov-2019 15:06:02 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 127930368 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[01-Nov-2019 15:06:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 127930368 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[01-Nov-2019 15:06:40 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[01-Nov-2019 15:06:41 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 127930368 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[01-Nov-2019 15:07:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 127930368 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[01-Nov-2019 15:08:52 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85987328 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 56
+[04-Nov-2019 13:15:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 90181632 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Cart/Cart.php on line 92
+[07-Nov-2019 17:05:33 UTC] PHP Warning:  require(/home/bustosme/public_html/projects/boletazo/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/bustosme/public_html/projects/boletazo/public/index.php on line 24
+[07-Nov-2019 17:05:33 UTC] PHP Warning:  require(/home/bustosme/public_html/projects/boletazo/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/bustosme/public_html/projects/boletazo/public/index.php on line 24
+[07-Nov-2019 17:05:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/bustosme/public_html/projects/boletazo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bustosme/public_html/projects/boletazo/public/index.php on line 24
+[07-Nov-2019 17:05:38 UTC] PHP Warning:  require(/home/bustosme/public_html/projects/boletazo/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/bustosme/public_html/projects/boletazo/public/index.php on line 24
+[07-Nov-2019 17:05:38 UTC] PHP Warning:  require(/home/bustosme/public_html/projects/boletazo/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/bustosme/public_html/projects/boletazo/public/index.php on line 24
+[07-Nov-2019 17:05:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/bustosme/public_html/projects/boletazo/public/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bustosme/public_html/projects/boletazo/public/index.php on line 24
+[14-Nov-2019 13:50:11 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 36
+[14-Nov-2019 13:52:32 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 38
+[02-Dec-2019 05:51:56 America/Los_Angeles] PHP Fatal error:  Can't use function return value in write context in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 45
+[02-Dec-2019 07:07:59 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 63
+[02-Dec-2019 07:26:51 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 60
+[02-Dec-2019 07:27:35 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 60
+[02-Dec-2019 07:28:28 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 64
+[02-Dec-2019 07:28:41 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Product/Http/Controllers/ProductController.php on line 64
+[05-Dec-2019 08:09:08 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[12-Dec-2019 09:05:08 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Cart/Http/Controllers/CartItemController.php on line 94
+[25-Dec-2019 03:56:51 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Order/Entities/Order.php on line 235
+[25-Dec-2019 04:01:47 America/Los_Angeles] PHP Fatal error:  Cannot use Illuminate\Support\Facades\DB as DB because the name is already in use in /home/bustosme/public_html/projects/boletazo/Modules/Order/Entities/Order.php on line 17
+[06-Jan-2020 08:19:27 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php on line 500
+[06-Jan-2020 08:19:34 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php on line 500
+[06-Jan-2020 08:58:04 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php on line 508
+[06-Jan-2020 09:01:16 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php on line 511
+[06-Jan-2020 09:02:18 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php on line 511
+[08-Jan-2020 00:20:25 America/Los_Angeles] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\Foundation\Applicat in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[08-Jan-2020 00:20:25 America/Los_Angeles] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\Foundation\Applicat in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[08-Jan-2020 00:20:25 America/Los_Angeles] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\Foundation\Applicat in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[10-Jan-2020 04:06:48 America/Los_Angeles] PHP Fatal error:  Uncaught ErrorException: Array to string conversion in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php:530
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php(530): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/bustosme/...', 530, Array)
+#1 [internal function]: Modules\Page\Http\Controllers\ApiController->scanner_password(Object(Illuminate\Http\Request))
+#2 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#3 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('scanner_passwor...', Array)
+#4 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\Routing\ControllerDispatcher->dispatch(Object( in /home/bustosme/public_html/projects/boletazo/Modules/Page/Http/Controllers/ApiController.php on line 530
+[16-Jan-2020 17:51:46 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\Foundation\Applicat in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[21-Jan-2020 04:08:42 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 115347456 bytes) in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php on line 128
+[21-Jan-2020 04:11:04 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 58724352 bytes) in /home/bustosme/public_html/projects/boletazo/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php on line 53
+[23-Jan-2020 02:37:56 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Order/Http/Controllers/Admin/OrderController.php on line 55
+[06-Feb-2020 02:09:28 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/storage/framework/views/1eb435ea8d25d062bfefcb955b181c5972fa9ab6.php on line 6
+[06-Feb-2020 03:27:38 America/Los_Angeles] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/bustosme/public_html/projects/boletazo/storage/framework/views/1eb435ea8d25d062bfefcb955b181c5972fa9ab6.php on line 3
+[06-Feb-2020 04:37:47 America/Los_Angeles] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/bustosme/public_html/projects/boletazo/storage/framework/views/1eb435ea8d25d062bfefcb955b181c5972fa9ab6.php on line 5
+[10-Feb-2020 05:50:27 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/storage/framework/views/a05ec03bb19668ade8e3873112fa8a25719e6740.php on line 4
+[18-Feb-2020 01:03:32 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazo/Modules/Checkout/Http/Controllers/CheckoutController.php on line 116
+[16-Mar-2020 11:02:52 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[16-Mar-2020 11:04:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[16-Mar-2020 11:04:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[16-Mar-2020 11:04:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[16-Mar-2020 11:04:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[16-Mar-2020 11:04:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[16-Mar-2020 11:11:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[16-Mar-2020 11:11:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Jun-2020 05:23:41 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Product/Sidebar/SidebarExtender.php on line 14
+[11-Jun-2020 05:59:52 America/Los_Angeles] PHP Fatal error:  Cannot use empty array elements in arrays in /home/bustosme/public_html/projects/boletazodev/Modules/Checkout/Http/Controllers/CheckoutController.php on line 85
+[11-Jun-2020 06:01:08 America/Los_Angeles] PHP Fatal error:  Cannot use empty array elements in arrays in /home/bustosme/public_html/projects/boletazodev/Modules/Checkout/Http/Controllers/CheckoutController.php on line 85
+[11-Jun-2020 06:02:05 America/Los_Angeles] PHP Fatal error:  Cannot use empty array elements in arrays in /home/bustosme/public_html/projects/boletazodev/Modules/Checkout/Http/Controllers/CheckoutController.php on line 87
+[11-Jun-2020 06:13:13 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Page/Http/Controllers/ApiController.php on line 24
+[11-Jun-2020 06:13:47 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Page/Http/Controllers/ApiController.php on line 24
+[11-Jun-2020 06:15:04 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Page/Http/Controllers/ApiController.php on line 24
+[17-Jun-2020 03:45:57 America/Los_Angeles] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/bustosme/public_html/projects/boletazodev/storage/framework/views/8513052cf7b89e88746b42c2fc817b464904dc30.php on line 3
+[01-Jul-2020 08:21:59 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Checkout/Http/Controllers/CheckoutController.php on line 68
+[01-Jul-2020 08:44:50 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Checkout/Http/Controllers/CheckoutController.php on line 73
+[01-Jul-2020 08:56:35 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Checkout/Http/Controllers/CheckoutController.php on line 44
+[01-Jul-2020 09:30:12 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazodev/Modules/Cart/Http/Controllers/CartItemController.php on line 44
+[22-Jul-2020 01:54:53 America/Los_Angeles] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/bustosme/public_html/projects/boletazodev/storage/framework/views/3a391a1da2545eb4cedf8fc34667d18c7d7e595c.php on line 3
+[07-Oct-2020 16:14:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Oct-2020 16:14:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Oct-2020 16:14:58 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Oct-2020 16:15:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Oct-2020 16:15:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[22-Oct-2020 01:19:19 America/Los_Angeles] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[22-Oct-2020 01:19:19 America/Los_Angeles] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:17:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:18:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:18:30 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:18:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:19:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:19:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:20:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:21:03 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:21:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:22:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:22:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:22:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:22:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:23:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:23:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[05-Nov-2020 22:47:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 01:13:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 01:13:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 05:59:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 05:59:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 08:33:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:07:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:48 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:53 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:42:58 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:43:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:43:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:43:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 09:43:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 12:02:28 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:44:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:45:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:45:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:46:03 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:47:29 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:47:29 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:48:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:48:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:48:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:48:57 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:49:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:49:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 14:49:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 15:27:03 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 15:27:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 15:28:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 15:29:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 15:35:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 16:19:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[06-Nov-2020 16:19:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class inBackend does not exist in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('inBackend')
+#1 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('inBackend')
+#2 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('inBackend', Array)
+#3 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(759): Illuminate\Container\Container->make('inBackend', Array)
+#4 /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php(1222): Illuminate\F in /home/bustosme/public_html/projects/boletazodev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
